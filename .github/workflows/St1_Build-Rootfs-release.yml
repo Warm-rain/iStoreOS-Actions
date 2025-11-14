@@ -125,4 +125,4 @@ jobs:
         files: |
           imagebuilder/bin/targets/armsr/armv8/*generic-rootfs.tar.gz
       env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
